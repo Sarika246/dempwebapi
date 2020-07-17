@@ -14,7 +14,7 @@ namespace SimpleWebApi.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "data1", "data2", "data3" };
+            return new string[] { "data1", "data2", "data3","data4","data5"};
         }
     }
 }
